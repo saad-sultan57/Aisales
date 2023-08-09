@@ -1,0 +1,232 @@
+
+:root{
+    --red:#e71600;
+    --light-red:#ce4f72;
+}
+a{
+    text-decoration: none;
+}
+.header-copy.clipped {
+    background-image: linear-gradient(181.7deg, var(--red), var(--light-red));
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding-top: 0;
+    padding-bottom: 10px;
+    font-family: Graphik, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+.clipped{
+    -webkit-text-fill-color: transparent !important;
+    -webkit-background-clip: text !important;
+    
+}
+.header.clipped {
+    background-image: linear-gradient(181.7deg, var(--red), var(--light-red));
+    margin-top: -24px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    font-family: Graphik, sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 1.1;
+}
+
+    .text {
+        z-index: 1;
+        color: #7b7b7b;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-family: Graphik, sans-serif;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 1.5;
+        padding: 0px 90px;
+}
+h2{
+    font-family: Graphik, sans-serif;
+    font-weight: 700;
+    font-size: 47px;
+    color: var(--red);
+}
+#btn__bg {
+    background: linear-gradient(107.8deg, var(--red) 0%, var(--light-red) 105%);
+    transition: .5s;
+    position: relative;
+    margin: 0 auto;
+}
+.click_button {
+    z-index: 0;
+    width: 250px;
+    height: 60px;
+    cursor: pointer;
+    background-image: linear-gradient(152.8deg, var(--red), var(--light-red));
+    border-radius: 75px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -40px;
+    padding: 8px 20px 6px;
+    font-family: Graphik, sans-serif;
+    font-size: 24px;
+    display: flex;
+    position: relative;
+}
+.button_header {
+    z-index: 0;
+    color: #fff;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+}
+.button_subheading {
+    color: #fff;
+    font-size: 11px;
+    font-weight: 400;
+}
+.links_con {
+    width: 100%;
+    height: 5vh;
+    min-height: 50px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    position: relative;
+    bottom: 15px;
+}
+.link_block {
+    color: #92949b;
+    border-bottom: 1px #000;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: Graphik, sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    text-decoration: none;
+}
+/*----Terms and Policy-----*/
+.terms{
+    color: #1e344b;
+}
+.terms h3{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1e344b;
+}
+.terms p{
+    font-size: 12px;
+    line-height: 27px;
+    color: #1e344b;
+    font-weight: 400;
+}
+.bold {
+    font-family: Graphik, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+/*Signup*/
+.custom-section {
+    max-width: 420px;
+    width: 100%;
+    margin-top: 100px;
+    padding: 50px 40px;
+    border-radius: 6px;
+    box-shadow: 0 0 30px #afafaf;
+}
+.custom-section .signup-description {
+    margin-top: 20px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.custom-section .signup-basic-form {
+    margin-top: 30px;
+}
+.signup-form .custom-form-item {
+    margin-bottom: 15px;
+}
+.signup-form .agree_tnc {
+    display: flex;
+    align-items: start;
+    margin-top: 20px;
+}
+.signup-form .err-msg {
+    color: #e42f2f;
+    font-size: .8125rem;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+.signup-form .btn-submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #335bf1;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: .8125rem;
+    font-weight: 700;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: all .3s;
+}
+.signup-form .custom-form-item label {
+    display: block;
+    font-size: .8125rem;
+    margin-bottom: 5px;
+    margin-left: 4px;
+}
+.signup-form .custom-form-item input:not(.PhoneInputInput), .signup-form .custom-form-item .PhoneInput {
+    display: block;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0.625rem 1rem;
+    background-color: #fff;
+    color: #000;
+    outline: transparent solid 2px;
+    outline-offset: 2px;
+    width: 100%;
+    aspect-ratio: unset;
+    accent-color: rgb(16,63,239);
+    font-family: inherit;
+    font-weight: 400;
+    font-size: .8125rem;
+    line-height: 1.25;
+    border-radius: 0.375rem;
+    border: 1px solid rgba(0,0,0,.16);
+    -webkit-font-smoothing: auto!important;
+}
+.signup-form .custom-form-item {
+    margin-bottom: 15px;
+}
+.signup-form .agree_tnc {
+    display: flex;
+    align-items: start;
+    margin-top: 20px;
+}
+.signup-form .agree_tnc label {
+    margin-left: 10px;
+    font-size: .8125rem;
+}
+.text-gray-400 {
+    --tw-text-opacity: 1;
+    color: rgb(156,163,175,1);
+}
+a{
+
+    color: rgb(156,163,175,1);
+}
+.text-sm, .text-tremor-default {
+    font-size: .875rem;
+    line-height: 1.25rem;
+}

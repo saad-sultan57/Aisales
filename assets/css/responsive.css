@@ -1,0 +1,16 @@
+@media only screen and (max-width:768px){
+    .header.clipped {
+        font-size: 30px;
+    }
+    .text{
+        padding: 0px 30px;
+    }
+}
+@media only screen and (max-width:576px){
+    .header.clipped {
+        font-size: 32px;
+    }
+    .text{
+        padding: 0px 31px;
+    }
+}
